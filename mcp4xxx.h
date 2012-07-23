@@ -252,8 +252,8 @@ class MCP4XXX
 
     const static byte tcon_shutdown_mask = B1000;
     const static byte tcon_term_a_mask   = B0100;
-    const static byte tcon_term_b_mask   = B0010;
-    const static byte tcon_wiper_mask    = B0001;
+    const static byte tcon_term_b_mask   = B0001;
+    const static byte tcon_wiper_mask    = B0010;
 
     const static word status_shutdown_mask = B10;
 
