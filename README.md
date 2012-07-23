@@ -13,9 +13,9 @@ MCP 4 X Y Z
       +----- X = Number of pots (1 or 2, quad-pot chips are not currenctly supported).
 ```
 
-Note that the MCP41X1 chips multiplex the SDI and SDO on a single pin.
+Note that the MCP41X1 chips multiplex SDI and SDO on a single pin.
 To use these chips with a standard SPI interface as on the Arduino you will need to
-connect the SDI/SDO pin on the pot to the Arduino's MISO pin, then bridge the MISO pin to the MOSI pin
-with a resistor (3k9 resistor seems to work well).
+connect the shared SDI/SDO pin on the pot to the Arduino's MISO pin, then bridge the
+MISO pin to the MOSI pin with a resistor (3k9 resistor seems to work well).
 
 This class has only been tested with the MCP4151.
