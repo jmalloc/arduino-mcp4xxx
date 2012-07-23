@@ -1,6 +1,6 @@
 # arduino-mcp4xxx
 
-Arduino library for controlling [Microchip's MCP4XXX](http://ww1.microchip.com/downloads/en/DeviceDoc/22060b.pdf) range of digital potentiometers.
+Arduino library for controlling [Microchip's MCP4XXX](http://ww1.microchip.com/downloads/en/DeviceDoc/22060b.pdf) range of SPI controlled digital potentiometers.
 
 ### Supported Devices
 
@@ -24,5 +24,5 @@ connect the shared SDI/SDO pin on the pot to the Arduino's MISO pin, then bridge
 
 ### Known Issues / Caveats
 
-* Does not support entire 4XXX range, notably absent is support for quad-pot devices.
+* Does not support entire 4XXX range, notably absent is support for I2C and quad-pot devices.
 * Only tested with MCP4151, which does not have a hardware shutdown pin.
