@@ -8,7 +8,7 @@ namespace icecave {
 namespace arduino {
 
 /**
- * This class controls Microchip's MCP4XXX range of digital potentiometers.
+ * Controls Microchip's MCP4XXX range of digital potentiometers.
  * http://ww1.microchip.com/downloads/en/DeviceDoc/22060b.pdf
  *
  * The supported chips are configured as follows:
@@ -19,7 +19,7 @@ namespace arduino {
  *       | |
  *       | +--- Y = Memory Type / Resolution (3 = 7-bit RAM, 4 = 7-bit EEPROM, 5 = 8-bit RAM, 6 = 8-bit EEPROM).
  *       |
- *       +----- X = Number of pots (1 or 2).
+ *       +----- X = Number of pots (1 or 2, quad-pot chips are not currenctly supported).
  *
  * Note that the MCP41X1 chips multiplex the SDI and SDO on a single pin.
  * To use these chips with a standard SPI interface as on the Arduino you will need to
