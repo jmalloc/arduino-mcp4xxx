@@ -1,5 +1,5 @@
 # arduino-mcp4xxx
-## Arduino library for controlling [Microchip's MCP4XXX](http://ww1.microchip.com/downloads/en/DeviceDoc/22060b.pdf) range of digital potentiometers.
+### Arduino library for controlling [Microchip's MCP4XXX](http://ww1.microchip.com/downloads/en/DeviceDoc/22060b.pdf) range of digital potentiometers.
 
 The supported chips are configured as follows:
 
