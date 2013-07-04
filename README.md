@@ -8,13 +8,17 @@ The supported chips are designated as follows:
 
 ```
 MCP 4 X Y Z
-      | | |
-      | | +- Z = Wiper Configuration (1 = Potentiometer, 2 = Rheostat).
-      | |
-      | +--- Y = Memory Type / Resolution (3 = 7-bit RAM, 4 = 7-bit EEPROM, 5 = 8-bit RAM, 6 = 8-bit EEPROM).
-      |
-      +----- X = Number of pots (1 or 2).
+      │ │ │
+      │ │ └── (Z) Wiper Configuration
+      │ │         1 = Potentiometer, 2 = Rheostat
+      │ │
+      │ └──── (Y) Memory Type / Resolution
+      │           3 = 7-bit RAM, 4 = 7-bit EEPROM, 5 = 8-bit RAM, 6 = 8-bit EEPROM
+      │
+      └────── (X) Number of pots
+                  1 or 2
 ```
+
 This encompasses: MCP4131, MCP4151, MCP4231, MCP4251, MCP4132, MCP4152, MCP4232 and MCP4252.
 
 ### SPI connection on MCP4X1X
